@@ -39,18 +39,6 @@ data Passport = Passport
   }
   deriving (Show)
 
-passport =
-  Passport
-    { passByr = Nothing,
-      passIyr = Nothing,
-      passEyr = Nothing,
-      passHgt = Nothing,
-      passHcl = Nothing,
-      passEcl = Nothing,
-      passPid = Nothing,
-      passCid = Nothing
-    }
-
 toPair :: [a] -> (a, a)
 toPair [a, b] = (a, b)
 
